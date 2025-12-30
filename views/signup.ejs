@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <div id="webname">shortly</div>
     <div id="login-box">
-        <h1>Sign-Up</h1>
         <form action="/user/signup" method="POST">
-            <div id="login-form-box">
-                <input name="name" type="text" required placeholder="Full-Name">
+            <div id="form-box">
+                <label >Sign Up</label>
+                <input name="name" type="name" required placeholder="Full-Name">
                 <input name="email" type="email" required placeholder="demo@gmail.com">
-                <input name="password" type="text" required placeholder="Password">
+                <input name="password" type="password" required placeholder="Password">
                 <button type="submit">Submit</button>
             </div>
             

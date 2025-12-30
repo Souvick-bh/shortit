@@ -1,7 +1,5 @@
 const {getUser} = require('../service/auth');
 
-
-
 async function restriction(req,res,next) {
     const userUid = req.cookies?.uid;
     // const userUid = req.headers["authorization"];

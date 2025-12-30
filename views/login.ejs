@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log-in</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <div id="webname">shortly</div>
     <div id="login-box">
-        <h1 >Log-In</h1>
         <form action="/user/login" method="POST">
-            <div id="login-form-box">
+            <div id="form-box">
+                <label >Log In</label>
                 <input  name="email" type="email" required placeholder="demo@gmail.com">
                 <input name="password" type="password" required placeholder="Password">
                 <button type="submit">Submit</button>
